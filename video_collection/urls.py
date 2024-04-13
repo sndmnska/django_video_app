@@ -6,5 +6,3 @@ urlpatterns = [
     path('add', views.add, name='add_video')
 ]
 
-
-# XXX There were approximately 12 minutes left of video 2. 
