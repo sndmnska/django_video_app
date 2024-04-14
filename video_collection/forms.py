@@ -6,3 +6,7 @@ class VideoForm(forms.ModelForm):
         # List the fields from the Video model to show in the form
         model = Video
         fields = ['name', 'url', 'notes']
+
+class SearchForm(forms.Form):
+    search_term = forms.CharField()
+    
